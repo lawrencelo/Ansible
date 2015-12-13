@@ -1,0 +1,4 @@
+
+Save temporary ansible shell scripts instead of deleting
+export ANSIBLE_KEEP_REMOTE_FILES=1
+Set this, then re-run ansible-playbook, and then ssh and cd over to ~/.ansible/tmp/ to find the files.
